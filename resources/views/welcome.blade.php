@@ -83,7 +83,7 @@
         <div class="hero-container">
             <h1>Welcome to {{ config('app.name', 'Laravel') }}</h1>
             <h2>Your desired Web Application solutions...</h2>
-            <img src="https://www.pinclipart.com/picdir/big/301-3010514_tech-hero-clipart.png" alt="Hero Imgs">
+            <img src="{{asset('storage/home/held-4954691_640.png')}}" alt="Hero Imgs">
             <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
             <div class="btns">
                 <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
@@ -113,7 +113,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="feature-block">
 
-                        <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
+                        <img src="{{asset('storage/home/shield-4287797_1280.png')}}" alt="img" class="img-fluid">
                         <h4>highly secure</h4>
                         <p>We try to develop our applications as secure as possible. Also use profeesional tools for more productivity and security. All of our application are tested.</p>
                         <a href="#">read more</a>
@@ -124,7 +124,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="feature-block">
 
-                        <img src="img/svg/planet.svg" alt="img" class="img-fluid">
+                        <img src="{{asset('storage/home/price-2389232_1280.png')}}" alt="img" class="img-fluid">
                         <h4>user friendly interface</h4>
                         <p>We come up with most stylish look, that you will must fall in love.</p>
                         <a href="#">read more</a>
@@ -135,7 +135,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="feature-block">
 
-                        <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
+                        <img src="{{asset('storage/home/heart-icon-2316451_1280.png')}}" alt="img" class="img-fluid">
                         <h4>build the app everyone love</h4>
                         <p>Our main focus in on User Interface &amp; User Experience.</p>
                         <a href="#">read more</a>
@@ -156,7 +156,7 @@
             <div class="row justify-content-center">
 
                 <div class="col-md-5 col-lg-3">
-                    <img src="img/about-img.png" alt="About">
+                    <img src="{{asset('storage/home/mobile-devices-2017982_1280.png')}}" alt="About">
                 </div>
 
                 <div class="col-md-7 col-lg-5">
@@ -204,7 +204,7 @@
                     <div class="feature-block">
                         <img src="img/svg/paint-palette.svg" alt="img" class="img-fluid">
                         <h4>creative design</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <p>We use difference frontend material template and frameworks.</p>
                     </div>
                 </div>
 
@@ -220,7 +220,15 @@
                     <div class="feature-block">
                         <img src="img/svg/design-tool.svg" alt="img" class="img-fluid">
                         <h4>easy to use</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <p>We always focus onto UI &amp; UX.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
+                        <h4>Frequent Updates</h4>
+                        <p>Always stay up to dated with our regular maitanance and update policy.</p>
                     </div>
                 </div>
 
@@ -228,15 +236,7 @@
                     <div class="feature-block">
                         <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
                         <h4>Free Updates</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="feature-block">
-                        <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-                        <h4>Free Updates</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <p>Updates are free of cost.</p>
                     </div>
                 </div>
 
@@ -251,8 +251,8 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="feature-block">
                         <img src="img/svg/pixel.svg" alt="img" class="img-fluid">
-                        <h4>Perfect Pixel</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <h4>Responsivenes</h4>
+                        <p>Supported to all devices.</p>
                     </div>
                 </div>
 
@@ -260,7 +260,7 @@
                     <div class="feature-block">
                         <img src="img/svg/code.svg" alt="img" class="img-fluid">
                         <h4>clean codes</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <p>Optimized and minimalistic clean code.</p>
                     </div>
                 </div>
 
@@ -276,7 +276,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h2>App Gallery</h2>
-                <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+                <p class="separator">Our projects .</p>
             </div>
         </div>
 
@@ -323,7 +323,7 @@
             <div class="section-title text-center">
 
                 <h2>Team Member</h2>
-                <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+                <p class="separator">List of our team members .</p>
 
             </div>
         </div>

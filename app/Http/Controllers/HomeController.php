@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('welcome');
     }
 
     /**
@@ -24,5 +24,11 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function welcome()
+    {
+        // dd(asset('storage/home/held-4954691_640.png'));
+        return view('welcome');
     }
 }
